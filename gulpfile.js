@@ -21,9 +21,7 @@ gulp.task('clear-cache', function(done) {
 
 // Compile .kit templates
 gulp.task('kit', ['kit-images'],function() {
-    return gulp.src([
-                     'app/_pages/*.kit'
-                     ])
+    return gulp.src(['app/_pages/*.kit'])
     .pipe($.kit())
     .pipe(gulp.dest('app/_kit'));
 });
@@ -43,17 +41,6 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('.tmp/styles'))
         .pipe($.size());
 });
-
-/*gulp.task('styles', function () {
-    gulp.src('app/styles/*.scss')
-        .pipe($.plumber({
-            errorHandler: onError
-        }))
-        .pipe($.sass())
-        .pipe($.autoprefixer('last 5 version'))
-        .pipe(gulp.dest('.tmp/styles'))
-        .pipe($.size());
-});*/
 
 gulp.task('scripts', function () {
     return gulp.src('app/scripts/**/*.js')

@@ -3,7 +3,10 @@
     FONTS
 \*------------------------------------*/
 
-// Import if Goolge Fonts is defined
-@if variable-exists(font-url--google) {
-    @import url($font-url--google);
+// Import if Goolge Fonts are defined
+@if variable-exists($font-url--google-primary ) {
+    @import url($font-url--google-primary);
+}
+@if variable-exists($font-url--google-secondary ) {
+    @import url($font-url--google-secondary);
 }

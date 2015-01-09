@@ -47,11 +47,7 @@
   outline: none;
   -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  opacity: 0.7; }
-
-.ca-close:hover {
-  opacity: 1.0; }
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) }
 
 .ca-item-main {
   position: absolute;
@@ -149,7 +145,6 @@
   margin-top: -45px;
   left: -40px;
   text-indent: -9000px;
-  opacity: 0.7;
   cursor: pointer;
   z-index: 100; }
 
@@ -157,9 +152,6 @@
   background-position: top right;
   left: auto;
   right: -40px; }
-
-.ca-nav span:hover {
-  opacity: 1.0; }
 
 .ca-item img {
   height: 250px;

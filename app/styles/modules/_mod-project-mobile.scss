@@ -38,11 +38,12 @@
     // M
     @include breakpoint($breakpoint-m) {
         @include layout($m-layout);
-        display: none;
+
     };
 
     // L
     @include breakpoint($breakpoint-l) {
         @include layout($l-layout);
+        display: none;
     };
 }
