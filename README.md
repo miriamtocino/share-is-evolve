@@ -6,9 +6,6 @@ Here is where you can find the code belonging to the personal website of softwar
 
 Below you find a list of important information and details, that I use on a daily basis, or I will need in the future if I haven't worked on the project for a long time ☺
 
-Getting Started
-=======
-
 ## Cloning the repository
 
 To clone the repository open the terminal, go to the projects folder and paste the code below.
@@ -18,8 +15,10 @@ To clone the repository open the terminal, go to the projects folder and paste t
 After that and first of all, both **node** and **bower** dependencies need to be installed:
 
 ```bash
+# installing node dependencies
 npm install
 
+# installing bower dependencies
 bower install
 ```
 
@@ -37,6 +36,7 @@ On A Daily Basis
 I need to remember that every time I am about to start working on the project, **node** needs to be activated running:
 
 ```bash
+# don't forget to activate node before start using gulp !!!
 nvm use
 ```
 
@@ -59,4 +59,4 @@ gulp clear-cache
 
 # makes a build into the dis folder
 gulp build
-```bash
+```
