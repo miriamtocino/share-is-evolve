@@ -1,4 +1,5 @@
 Personal Website of Software Engineer Jose Antonio Escribano.
+
 Below you find a list of important information and details, that I use on a daily basis, or I will need in the future when I haven't worked on it for a long time ☺
 
 ### Cloning the repository
@@ -24,7 +25,11 @@ Every time I start working on the project, node need to be activated:
 
 #### gulp
 gulp [taskname]         -> runs the specified task (gulpfile.js)
+
 gulp watch              -> starts gulp and runs the watch task
+
 gulp clean              -> cleans the dist and _kit folder
+
 gulp clear-cache            -> emptys the build cache
+
 gulp build              -> makes a build into the dis folder
