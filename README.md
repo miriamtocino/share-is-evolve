@@ -16,6 +16,7 @@ nvm use
 
 ## Folder Structure
 
+```bash
 + scss/
   |
   |
@@ -62,6 +63,7 @@ nvm use
   |   + ie.scss             # IE specific Sass file
   |   + styles.scss         # primary Sass file
   |   + _shame.scss         # because hacks happen
+```
 
 ## gulp commands
 
