@@ -90,7 +90,7 @@ gulp clean
 # emptys the build cache
 gulp clear-cache
 
-# makes a build into the dis folder
+# makes a build into the dist folder
 gulp build
 ```
 
