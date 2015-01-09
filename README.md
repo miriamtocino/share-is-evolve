@@ -12,6 +12,9 @@ Every time I am about to start working on the project, **node** needs to be acti
 ```bash
 # don't forget to activate node before start using gulp !!!
 nvm use
+
+# and enjoy watching your project
+gulp watch
 ```
 
 ## Folder Structure
