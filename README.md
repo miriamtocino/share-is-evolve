@@ -22,7 +22,7 @@ Find below the project structure so people can find its way...
 + app/
   | + _kit/                       # generated automatically (don't touch when developing)
   | + _pages/                     # kit files
-      |-- _index.kit                # working code for index.html page
+      |-- _index.kit              # working code for index.html page
       | ...
 
   | + _src/                       # partial files to be included in pages (includes)
@@ -31,8 +31,8 @@ Find below the project structure so people can find its way...
       | ...
 
   | + assets/                     # files not related with code
-      | + ai/                       # Illustrator files
-      | + psd/                      # Photoshop files
+      | + ai/                     # Illustrator files
+      | + psd/                    # Photoshop files
       | ...
 
   | + bower_components/           # bower components
