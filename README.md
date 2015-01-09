@@ -1,6 +1,8 @@
 Project Description
 =======
-Personal Website of Software Engineer Jose Antonio Escribano [shareisevolve.com](http://shareisevolve.com/).
+Hi there, source peeker!
+
+Here is where you can find the code belonging to the personal website of software engineer Jose Antonio Escribano [shareisevolve.com](http://shareisevolve.com/).
 
 Below you find a list of important information and details, that I use on a daily basis, or I will need in the future if I haven't worked on the project for a long time ☺
 
