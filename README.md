@@ -1,41 +1,60 @@
-Description
+Project Description
 =======
 Personal Website of Software Engineer Jose Antonio Escribano [shareisevolve.com](http://shareisevolve.com/).
 
-Below you find a list of important information and details, that I use on a daily basis, or I will need in the future when I haven't worked on it for a long time ☺
+Below you find a list of important information and details, that I use on a daily basis, or I will need in the future if I haven't worked on the project for a long time ☺
 
-### Cloning the repository
+Getting Started
+=======
+
+## Cloning the repository
+
 To clone the repository open the terminal, go to the projects folder and paste the code below.
 
 `git clone git@github.com:miriamtocino/share-is-evolve.git share-is-evolve`
 
-After that and first of all, the node dependencies need to be installed:
+After that and first of all, both **node** and **bower** dependencies need to be installed:
 
-`npm install`
+```bash
+npm install
 
-The same with bower:
-
-`bower install`
+bower install
+```
 
 After this two operations are done, node need to be activated:
 
-`nvm use`
+```bash
+nvm use
+```
 
-Now gulp is ready to use!
+Congratulations! Now you can start using gulp!
 
-### List of daily used commands ( [word]=placeholder )
+On A Daily Basis
+=======
 
-Every time I start working on the project, node need to be activated:
+I need to remember that every time I am about to start working on the project, **node** needs to be activated running:
 
-`nvm use`
+```bash
+nvm use
+```
 
-#### gulp
-`gulp [taskname]         -> runs the specified task (gulpfile.js)`
+## Folder Structure
 
-`gulp watch              -> starts gulp and runs the watch task`
+## Useful Commands: gulp ([word]=placeholder)
 
-`gulp clean              -> cleans the dist and _kit folder`
+```bash
+# runs the specified task (gulpfile.js)
+gulp [taskname]
 
-`gulp clear-cache            -> emptys the build cache`
+# starts gulp and runs the watch task
+gulp watch
 
-`gulp build              -> makes a build into the dis folder`
+# cleans the dist and _kit folder
+gulp clean
+
+# emptys the build cache
+gulp clear-cache
+
+# makes a build into the dis folder
+gulp build
+```bash
