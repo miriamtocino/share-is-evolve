@@ -97,7 +97,7 @@ gulp build
 Cloning the repository
 =======
 
-It might be possible that the next version of the site comes in some months, years, decades? from now. I might not even have the same laptop. If this is the case, go and clone the repository by openning the terminal, going to the projects folder and pasting the code below.
+It might be possible that the next version of the site comes in some months, years, decades? from now. I might not even have the same laptop. If this is the case, go and clone the repository by openning the terminal, going to the projects folder and pasting the code below:
 
 ```bash
 git clone git@github.com:miriamtocino/share-is-evolve.git share-is-evolve
@@ -120,5 +120,4 @@ Finally don't forget to activate **node** before starting to work on the project
 nvm use
 ```
 
-Congratulations!
-Now you can start working on the latest version of the project!
+Congratulations! Now you can start working on the latest version of the project!
