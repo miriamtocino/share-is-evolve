@@ -1,0 +1,58 @@
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+
+#footer {
+
+    // S
+    @include breakpoint($breakpoint-s) {
+        @include layout($s-layout);
+        @include container(full);
+        position: relative;
+        overflow: hidden;
+        z-index: 9999;
+        padding: 1em 2em;
+
+        h5 {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: $color-primary;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            overflow: hidden;
+            width: 900%;
+            height: 900%;
+            top: -250%;
+            left: -383%;
+            z-index: -1;
+            background: white url("../images/pattern.png") 0 0 repeat;
+            -webkit-transform: rotate(30deg);
+            -moz-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            -o-transform: rotate(30deg);
+            transform: rotate(30deg);
+        }
+    };
+
+    // M
+    @include breakpoint($breakpoint-m) {
+        @include layout($m-layout);
+        padding: 1em 4em;
+    };
+
+    // L
+    @include breakpoint($breakpoint-l) {
+        @include layout($l-layout);
+        padding: 1em 6em;
+    };
+}

@@ -1,0 +1,129 @@
+/*------------------------------------*\
+    UTILITIES
+    Global
+\*------------------------------------*/
+
+// Font Stacks
+// -------------------------
+
+$font-url--google-primary   : 'http://fonts.googleapis.com/css?family=Nunito:400,300,700';
+$font-url--google-secondary : 'http://fonts.googleapis.com/css?family=Luckiest+Guy';
+$font-family--primary       : 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$font-family--secondary     : 'Luckiest Guy', Helvetica, Arial, sans-serif !default;
+
+// Font Weights
+// -------------------------
+
+$font-weight--thin        : 100 !default;
+$font-weight--light       : 300 !default;
+$font-weight--medium      : 400 !default;
+$font-weight--bold        : 700 !default;
+$font-weight--ultra-bold  : 900 !default;
+
+// Descriptive Base Colors
+// -------------------------
+
+$white  : #fff !default;
+$black  : #0b0b0b !default;
+
+$gray-darker    : lighten(#000, 13.5%) !default; // #222
+$gray-dark      : lighten(#000, 20%) !default;   // #333
+$gray           : lighten(#000, 33.5%) !default; // #555
+$gray-light     : lighten(#000, 46.7%) !default; // #777
+$gray-lighter   : lighten(#000, 93.5%) !default; // #eee
+
+$cerulean       : #0092d7; // rgb(211,54,130) // http://chir.ag/projects/name-that-color
+$anakiwa        : #99CCFF; // rgb(0,153,153) // http://chir.ag/projects/name-that-color
+
+// Color Usage
+// -------------------------
+
+$color-primary    : $cerulean; // rgb(211,54,130)
+$color-secondary  : $anakiwa; // rgb(0,153,153)
+
+// Scaffolding
+// -------------------------
+
+$body-bg      : $white !default; // Background color for <body>
+$text-color   : $gray !default; // Global text color on <body>
+$text-weight  : $font-weight--light !default; // Global text weight on <body>
+
+$link-color        : $gray-dark !default; // Global textual link color
+$link-hover-color  : $color-primary !default;
+
+// Typography
+// -------------------------
+
+$base__font-size  : 1em !default;
+$font-size-large  : ceil(($base__font-size * 1.25)) !default;   // ~18px
+$font-size-small  : ceil(($base__font-size * 0.85)) !default;   // ~12px
+
+$font-size-h1     : floor(($base__font-size * 2.6)) !default;   // ~36px
+$font-size-h2     : floor(($base__font-size * 2.15)) !default;  // ~30px
+$font-size-h3     : 1.9em !default;                             // ~24px
+$font-size-h4     : 1.4em !default;                             // ~18px
+$font-size-h5     : 1em !default;
+$font-size-h6     : ceil(($base__font-size * 0.85)) !default;   // ~12px
+
+$base__line-height        : 1.5 !default; // Unit-less `line-height`
+$line-height-computed     : floor(($base__font-size * $base__line-height)) !default;
+
+// By default, this inherits from the `<body>`.
+$headings-font-family     : inherit !default;
+$headings-font-weight     : 700 !default;
+$headings-line-height     : 1.1 !default;
+$headings-color           : $color-primary !default;
+
+// Buttons
+// -------------------------
+
+$btn-font-weight          : normal !default;
+
+$btn-default-color        : #333 !default;
+$btn-default-bg           : #fff !default;
+$btn-default-border       : #ccc !default;
+
+$btn-primary-color        : #fff !default;
+$btn-primary-bg           : $color-primary !default;
+$btn-primary-border       : darken($btn-primary-bg, 5%) !default;
+
+$btn-secondary-color        : #fff !default;
+$btn-secondary-bg           : $color-secondary !default;
+$btn-secondary-border       : darken($btn-secondary-bg, 5%) !default;
+
+// Type
+// -------------------------
+
+$component-offset-horizontal  : 180px !default; // Horizontal offset for forms and lists.
+
+$text-muted                   : $gray-light !default; // Text muted color
+
+$abbr-border-color            : $gray-light !default; // Abbreviations and acronyms border colo
+
+$headings-small-color         : $gray-light !default; // Headings small color
+
+$blockquote-small-color       : $gray-light !default; // Blockquote small color
+$blockquote-font-size         : ($base__font-size * 1.45) !default; // Blockquote font size
+$blockquote-border-color      : $gray-lighter !default; // Blockquote border color
+
+$page-header-border-color     : $gray-lighter !default; // Page header border color
+$dl-horizontal-offset         : $component-offset-horizontal !default; // Width of horizontal description list titles
+$hr-border                    : $gray !default; // Horizontal line color.
+
+// Tables
+// -------------------------
+
+$table-cell-padding           : 2px 8px !default; // Padding for `<th>`s and `<td>`s.
+$table-condensed-cell-padding : 5px !default; // Padding for cells in `.table-condensed`.
+
+$table-bg                     : $white !default; // Default background color used for all tables.
+$table-bg-accent              : #f9f9f9 !default; // Background color used for `.table-striped`.
+$table-bg-hover               : #f5f5f5 !default; // Background color used for `.table-hover`.
+$table-bg-active              : $table-bg-hover !default;
+
+$table-border-color           : #ddd !default; // Border color for table and cell borders.
+
+// Path to Assets
+// -------------------------
+
+$path--rel      : "../images";

@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    PROJECTS
+\*------------------------------------*/
+
+#projects {
+
+    // S
+    @include breakpoint($breakpoint-s) {
+        @include layout($s-layout);
+        display: none;
+    };
+
+    // M
+    @include breakpoint($breakpoint-m) {
+        @include layout($m-layout);
+    };
+
+    // L
+    @include breakpoint($breakpoint-l) {
+        @include layout($l-layout);
+        @include container(full);
+        display: block;
+        padding: 2em 0 4em 0;
+        position: relative;
+        background: transparent url("../../images/bg.png") 50% 0;
+        z-index: 9999;
+
+        h2 {
+            padding-left: 3em;
+        }
+        & > p {
+            padding-left: 6em;
+            width: span(first 7 of 12);
+        }
+    };
+}

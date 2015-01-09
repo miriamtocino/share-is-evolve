@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    ABOUT
+\*------------------------------------*/
+
+#about {
+
+    // S
+    @include breakpoint($breakpoint-s) {
+        @include layout($s-layout);
+        @include container(full);
+        position: relative;
+        overflow: hidden;
+        z-index: 9999;
+        color: white;
+        padding: 2em 2em 4em;
+
+        h2, h4, p, a {
+            color: white;
+        }
+
+        h4 {
+            text-transform: uppercase;
+            margin-top: 1.5em;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            overflow: hidden;
+            width: 300%;
+            height: 300%;
+            top: -100%;
+            left: -100%;
+            z-index: -1;
+            background: $color-primary url("../images/pattern.png") 0 0 repeat;
+            -webkit-transform: rotate(30deg);
+            -moz-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            -o-transform: rotate(30deg);
+            transform: rotate(30deg);
+        }
+    };
+
+    // M
+    @include breakpoint($breakpoint-m) {
+        @include layout($m-layout);
+        padding: 2em 0 6em 4em;
+
+        h2, p {
+           width: span(first 8 of 12);
+        }
+
+    };
+
+    // L
+    @include breakpoint($breakpoint-l) {
+        @include layout($l-layout);
+        padding: 2em 0 4em 6em;
+
+        h2, p {
+           width: span(first 7 of 12);
+        }
+    };
+}

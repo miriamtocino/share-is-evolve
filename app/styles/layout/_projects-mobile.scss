@@ -1,0 +1,28 @@
+/*------------------------------------*\
+    PROJECTS MOBILE
+\*------------------------------------*/
+
+#projects-mobile {
+
+    // S
+    @include breakpoint($breakpoint-s) {
+        @include layout($s-layout);
+        @include container(full);
+        position: relative;
+        background: url(../images/bg.png) repeat 100% 100%;
+        background-color: red;
+        z-index: 3333;
+        padding: 2em;
+    };
+
+    // M
+    @include breakpoint($breakpoint-m) {
+        @include layout($m-layout);
+        display: none;
+    };
+
+    // L
+    @include breakpoint($breakpoint-l) {
+        @include layout($l-layout);
+    };
+}

@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+node_modules/
+dist/
+.tmp
+.sass-cache
+app/bower_components/
+app/slider.html
+app/_kit

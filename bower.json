@@ -1,0 +1,16 @@
+{
+  "name": "Fresenius-Kabi-Frontend",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "jquery": "~1.11.0",
+    "velocity": "~0.11.2",
+    "threejs": "*"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.5.0",
+    "susy": "~2.1.3",
+    "sass-list-maps": "~0.9.9",
+    "sassy-maps": "~0.4.0"
+  }
+}

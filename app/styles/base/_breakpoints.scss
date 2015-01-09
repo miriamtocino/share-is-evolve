@@ -1,0 +1,10 @@
+/*------------------------------------*\
+    BREAKPOINT
+    Media queries breakpoints
+    Define the breakpoints at which your layout will change,
+    adapting to different screen sizes.
+\*------------------------------------*/
+
+$breakpoint-s       : 0px, 568px;
+$breakpoint-m       : 569px, 768px;
+$breakpoint-l       : 769px, 1024px;

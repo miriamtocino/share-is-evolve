@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    MODULE PROJECT MOBILE XS, S
+\*------------------------------------*/
+
+.mod-project-mobile {
+
+    // S
+    @include breakpoint($breakpoint-s) {
+        @include layout($s-layout);
+        @include container(full);
+        background: $white;
+        padding: 1em;
+        overflow: hidden;
+        text-align: left;
+        border-radius: 8px;
+        margin: 1em 0;
+        border: 5px solid $color-primary;
+
+        img {
+            height: 250px;
+            background: $color-primary;
+            border-radius: 8px;
+            margin-bottom: 1em;
+        }
+
+        h4 {
+            text-transform: uppercase;
+        }
+
+        p, h4, h6, h6 a { color: $color-primary; }
+
+        p {
+            margin-bottom: -5px;
+            padding-bottom: 0;
+        }
+    };
+
+    // M
+    @include breakpoint($breakpoint-m) {
+        @include layout($m-layout);
+        display: none;
+    };
+
+    // L
+    @include breakpoint($breakpoint-l) {
+        @include layout($l-layout);
+    };
+}

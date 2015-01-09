@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    MODULE SOCIAL MEDIA LIST
+\*------------------------------------*/
+
+.mod-social-media-list {
+
+	// S
+    @include breakpoint($breakpoint-s) {
+        @include layout($s-layout);
+        @include transition(150ms);
+		li {
+			display: inline-block;
+			margin-right: 8px;
+		}
+    };
+
+	// M
+    @include breakpoint($breakpoint-m) {
+        @include layout($m-layout);
+    };
+
+    // L
+    @include breakpoint($breakpoint-l) {
+        @include layout($l-layout);
+    };
+}
